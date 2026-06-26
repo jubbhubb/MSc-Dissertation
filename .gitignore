@@ -1,2 +1,5 @@
 key.txt
 .DS_Store
+.venv/
+input_token_count.txt
+output_token_count.txt
