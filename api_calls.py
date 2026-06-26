@@ -1,6 +1,9 @@
 from pydoc import text
 import config_setup
 from datetime import datetime
+from pathlib import Path
+import time
+from save_response import save_response
 
 import openai 
 with open('key.txt', 'r') as file:
@@ -56,6 +59,7 @@ def individual_input(input_text):
     "additionalProperties": False
     }
 
+
     response = client.responses.create(
         model="gpt-5.5",
         instructions="Analyse this text and provide thematic codes in the following format: {\"codes\": [{\"code\": \"thematic code\", \"explanation\": \"brief explanation of the code\", \"quote\": \"a relevant quote from the text that supports the code\", \"confidence\": number from 0 to 1}]}:" \
@@ -71,43 +75,84 @@ def individual_input(input_text):
             }
         }
     )
-
-    # print(response.output_text)
-    used_tokens = response.usage.total_tokens
-    print(f"Used tokens: {used_tokens}")
     input_tokens = response.usage.input_tokens
-    print(f"Input tokens: {input_tokens}")
     output_tokens = response.usage.output_tokens
-    print(f"Output tokens: {output_tokens}")
     INPUT_TOKEN_COUNT = INPUT_TOKEN_COUNT + input_tokens
     OUTPUT_TOKEN_COUNT = OUTPUT_TOKEN_COUNT + output_tokens
     with open('input_token_count.txt', 'w') as file:
         file.write(str(INPUT_TOKEN_COUNT))
     with open('output_token_count.txt', 'w') as file:
         file.write(str(OUTPUT_TOKEN_COUNT))
-    return(response)
+    return(response) 
+
+def process_folder(experiment_folder):
+
+    """
+    Process all input txt files in an experiment folder.
+
+    API calls are made here.
+    Saving of responses is handled by save_response.py.
+    """
+
+    experiment_folder = Path(experiment_folder)
+
+    input_folder = experiment_folder / "input_files"
+    log_folder = experiment_folder / "logs"
+
+    log_folder.mkdir(exist_ok=True)
+
+    log_file = log_folder / "run_log.txt"
 
 
-def file_input(file_path):
-    with open(file_path, 'r') as file:
-        input_text = file.read()
-        print(f"Input text: {input_text}")
-    return individual_input(input_text)
+    with open(log_file, "a", encoding="utf-8") as log:
 
-def corpus_run(file_path):
-    input_text = file_input(file_path)
-    response = individual_input(input_text)
-    print(response)
+        for file in input_folder.glob("*.txt"):
+
+            start_time = time.perf_counter()
+
+            # log.write(
+            #     f"\n{datetime.now().isoformat()}\n"
+            #     f"Processing: {file.name}\n"
+            # )
+
+            try:
+
+                # Read input text
+                with open(
+                    file,
+                    "r",
+                    encoding="utf-8"
+                ) as f:
+                    text = f.read()
 
 
-def main():
-    # Example usage of individual_input function
-    # input_text = "I often feel overwhelmed by my workload, but talking with colleagues helps me cope."
-    # result = individual_input(input_text)
-    # print(f"Result: {result}")
+                # Make API call
+                response = individual_input(text)
 
-    # Example usage of file_input function
-    file_path = "input.txt"  # Replace with your actual file path
-    print(file_input(file_path))
-    
-main()
+
+                # Save all response information
+                elapsed = time.perf_counter() - start_time
+
+                save_response(
+                    response=response,
+                    experiment_folder=experiment_folder,
+                    input_filename=file.name,
+                    processing_time=elapsed
+                )
+
+
+                # log.write(
+                #     f"Status: SUCCESS\n"
+                #     f"Time: {elapsed:.2f} seconds\n"
+                # )
+
+
+            except Exception as e:
+
+                elapsed = time.perf_counter() - start_time
+
+                log.write(
+                    f"Status: FAILED\n"
+                    f"Error: {str(e)}\n"
+                    f"Time: {elapsed:.2f} seconds\n"
+                )

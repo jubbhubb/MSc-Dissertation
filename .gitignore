@@ -3,3 +3,9 @@ key.txt
 .venv/
 input_token_count.txt
 output_token_count.txt
+experiments/
+source_files/
+results/
+input.txt
+pseudocode.txt
+__pycache__/
