@@ -44,6 +44,8 @@ def create_experiment_folder(
 
     processed_files = []
 
+    combined_file = input_path / f"{experiment_name}_combined.txt"
+
     for file in source_path.glob("*.txt"):
 
         with open(file, "r", encoding="utf-8") as f:
@@ -53,15 +55,30 @@ def create_experiment_folder(
             text,
             lowercase=lowercase
         )
+    
+        if granularity == "small":
+            lines = processed_text.splitlines()
+            chunk_size = 1
+            sections = [
+                "\n".join(lines[i:i + chunk_size])
+                for i in range(0, len(lines), chunk_size)
+            ]
 
-        #I need to split files here if granularity == "small", but for now, just write the processed text to the output folder
-        # I also need to combine files if granularity == "large", but for now, just write the processed text to the output folder
+            for i, section in enumerate(sections):
+                section_file = input_path / f"{file.stem}_section_{i+1}.txt"
+                with open(section_file, "w", encoding="utf-8") as f:
+                    f.write(section)
+                processed_files.append(section_file.name)
+                
+        elif granularity == "large":
+           with open(combined_file, "a", encoding="utf-8") as g:
+                g.write(text+"\n\n")
+            
+        else:
+            output_file = input_path / file.name
 
-
-        output_file = input_path / file.name
-
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(processed_text)
+            with open(output_file, "w", encoding="utf-8") as f:
+                f.write(processed_text)
 
         processed_files.append(file.name)
 
