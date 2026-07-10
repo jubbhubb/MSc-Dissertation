@@ -55,10 +55,9 @@ def create_experiment_folder(
             text,
             lowercase=lowercase
         )
-    
-        if granularity == "small":
+        if granularity == "section":
             lines = processed_text.splitlines()
-            chunk_size = 1
+            chunk_size = 10
             sections = [
                 "\n".join(lines[i:i + chunk_size])
                 for i in range(0, len(lines), chunk_size)
@@ -70,7 +69,7 @@ def create_experiment_folder(
                     f.write(section)
                 processed_files.append(section_file.name)
                 
-        elif granularity == "large":
+        elif granularity == "corpus":
            with open(combined_file, "a", encoding="utf-8") as g:
                 g.write(text+"\n\n")
             

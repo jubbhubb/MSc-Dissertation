@@ -1,5 +1,8 @@
 from pathlib import Path
 from collections import defaultdict
+import json
+import regex as re
+import yaml
 
 def recombine_split_documents(input_path, output_path=None, save_combined=False):
     """
@@ -77,6 +80,7 @@ def recombine_split_documents(input_path, output_path=None, save_combined=False)
     return reconstructed
 
 def combine_to_corpus(
+        
     input_path,
     save_path=None,
     filename="corpus.txt",
@@ -127,3 +131,148 @@ def combine_to_corpus(
             f.write(corpus_text)
 
     return corpus_text
+
+def combine_json_files(input_path, output_file):
+    """
+    Combines multiple JSON files into a single JSON file.
+
+    Parameters:
+        input_path (str or Path):
+            Folder containing JSON files to combine
+
+        output_file (str or Path):
+            Path to save the combined JSON file
+    """
+
+    input_path = Path(input_path)
+    combined_data = []
+
+    for file in input_path.glob("*.json"):
+        with open(file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            combined_data.append(data)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(combined_data, f, indent=4, ensure_ascii=False)
+
+
+def combine_json_by_document(input_folder, output_folder):
+    """
+    Combine section JSON files into one JSON per original document and
+    generate a YAML metadata file.
+
+    Expected filename format:
+        <document_name>_section_<number>.json
+
+    Example:
+        Transcription_Group 1_S1_CZ&BI&AJ_section_1.json
+        Transcription_Group 1_S1_CZ&BI&AJ_section_2.json
+        ...
+
+    Parameters
+    ----------
+    input_folder : str or Path
+        Folder containing section JSON files.
+
+    output_folder : str or Path
+        Folder where combined JSON and YAML files will be written.
+    """
+
+    input_folder = Path(input_folder)
+    output_folder = Path(output_folder)
+    output_folder.mkdir(parents=True, exist_ok=True)
+
+    # Capture:
+    #   document name
+    #   section number
+    pattern = re.compile(r"^(.*?)_section_(\d+)\.json$")
+
+    grouped_files = defaultdict(list)
+
+    # ------------------------------------------------------------------
+    # Group files by original document
+    # ------------------------------------------------------------------
+    for file in input_folder.glob("*.json"):
+
+        match = pattern.match(file.name)
+
+        if not match:
+            print(f"Skipping unexpected filename: {file.name}")
+            continue
+
+        document_name = match.group(1)
+        section_number = int(match.group(2))
+
+        grouped_files[document_name].append((section_number, file))
+
+    # ------------------------------------------------------------------
+    # Process each document
+    # ------------------------------------------------------------------
+    for document_name, files in grouped_files.items():
+
+        # Sort by section number
+        files.sort(key=lambda x: x[0])
+
+        combined_data = []
+        section_metadata = []
+
+        total_items = 0
+        current_index = 0
+
+        for section_number, file in files:
+
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not isinstance(data, list):
+                raise ValueError(
+                    f"{file.name} does not contain a JSON list."
+                )
+
+            num_items = len(data)
+
+            combined_data.extend(data)
+
+            section_metadata.append({
+                "section": section_number,
+                "file": file.name,
+                "items": num_items,
+                "start_item": current_index,
+                "end_item": current_index + num_items - 1 if num_items else current_index
+            })
+
+            current_index += num_items
+            total_items += num_items
+
+        # --------------------------------------------------------------
+        # Save combined JSON
+        # --------------------------------------------------------------
+        json_output = output_folder / f"{document_name}.json"
+
+        with open(json_output, "w", encoding="utf-8") as f:
+            json.dump(combined_data, f, indent=4, ensure_ascii=False)
+
+        # --------------------------------------------------------------
+        # Save metadata YAML
+        # --------------------------------------------------------------
+        metadata = {
+            "document": document_name,
+            "number_of_sections": len(files),
+            "total_items": total_items,
+            "sections": section_metadata
+        }
+
+        yaml_output = output_folder / f"{document_name}.yaml"
+
+        with open(yaml_output, "w", encoding="utf-8") as f:
+            yaml.safe_dump(
+                metadata,
+                f,
+                sort_keys=False,
+                allow_unicode=True
+            )
+
+        print(
+            f"Saved {json_output.name} ({total_items} items) "
+            f"and {yaml_output.name}"
+        )

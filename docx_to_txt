@@ -1,0 +1,25 @@
+from pathlib import Path
+from docx import Document
+
+# Folder containing the .docx files
+folder = Path("source_files")  # Change this
+
+# Loop through all .docx files in the folder
+for docx_file in folder.glob("*.docx"):
+    try:
+        # Read the document
+        doc = Document(docx_file)
+
+        # Extract all paragraph text
+        text = "\n".join(paragraph.text for paragraph in doc.paragraphs)
+
+        # Save as .txt in the same folder
+        txt_file = docx_file.with_suffix(".txt")
+        txt_file.write_text(text, encoding="utf-8")
+
+        print(f"Converted: {docx_file.name} -> {txt_file.name}")
+
+    except Exception as e:
+        print(f"Failed to convert {docx_file.name}: {e}")
+
+print("Done!")
