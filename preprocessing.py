@@ -8,7 +8,7 @@ def normalise_text(text, lowercase=False):
     Basic text normalisation.
     Additional cleaning steps can be added here later.
     """
-    
+
     lines = text.splitlines()
     text = "\n".join(lines[6:])
     
@@ -38,12 +38,12 @@ def create_experiment_folder(
     output_path = experiment_path / "output_files"
     logs_path = experiment_path / "logs"
     prompt_path = experiment_path / "prompt.txt"
-    with open(prompt_path, "w", encoding="utf-8") as f:
-        f.write(prompt)
+
     # Create folders
     input_path.mkdir(parents=True, exist_ok=True)
     output_path.mkdir(exist_ok=True)
     logs_path.mkdir(exist_ok=True)
+    prompt_path.write_text(prompt, encoding="utf-8")
 
     # Process source files
     source_path = Path(source_folder)

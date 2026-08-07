@@ -1,0 +1,4 @@
+MODEL = "GPT-5.5"
+PROMPT_VERSION = "v1"
+CORPUS_NAME = "Corpus_01"
+GRANULARITY = "section"

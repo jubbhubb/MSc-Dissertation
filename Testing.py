@@ -1,4 +1,5 @@
 from pydoc import text
+from pandas import pd
 import config_setup
 from datetime import datetime
 
@@ -98,6 +99,10 @@ def corpus_run(file_path):
     input_text = file_input(file_path)
     response = individual_input(input_text)
     print(response)
+
+
+def read_in_json(file_path):
+    return pd.read_json(file_path, lines=True)
 
 
 def main():

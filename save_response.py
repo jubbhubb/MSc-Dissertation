@@ -48,8 +48,10 @@ def save_response(
     # Extract the assistant text response
     output_text = response.output[-1].content[0].text
 
+
     output_json = json.loads(output_text)
     codes = output_json["codes"]
+    
     output_file = output_folder / f"{file_stem}.json"
 
     with open(output_file, "w", encoding="utf-8"

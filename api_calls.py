@@ -9,7 +9,8 @@ import openai
 with open('key.txt', 'r') as file:
     API = file.read()
 
-def individual_input(input_text):
+def individual_input(input_text, prompt, schema, schema_name="thematic_codes"):
+    print("INDIVIDUAL INPUT FUNCTION CALLED")
     with open('input_token_count.txt', 'r') as file:
         INPUT_TOKEN_COUNT = file.read()
         INPUT_TOKEN_COUNT = int(INPUT_TOKEN_COUNT)
@@ -19,6 +20,37 @@ def individual_input(input_text):
         OUTPUT_TOKEN_COUNT = int(OUTPUT_TOKEN_COUNT)
 
     client = openai.OpenAI(api_key=API)
+    response = client.responses.create(
+        model="gpt-5.5",
+        instructions=prompt,
+        input=input_text,
+        store=False,
+        include=["reasoning.encrypted_content"],
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": schema_name,
+                "schema": schema,
+            }
+        }
+    )
+    input_tokens = response.usage.input_tokens
+    output_tokens = response.usage.output_tokens
+    INPUT_TOKEN_COUNT = INPUT_TOKEN_COUNT + input_tokens
+    OUTPUT_TOKEN_COUNT = OUTPUT_TOKEN_COUNT + output_tokens
+    with open('input_token_count.txt', 'w') as file:
+        file.write(str(INPUT_TOKEN_COUNT))
+    with open('output_token_count.txt', 'w') as file:
+        file.write(str(OUTPUT_TOKEN_COUNT))
+    return(response) 
+
+def process_folder(experiment_folder, prompt):
+    """
+    Process all input txt files in an experiment folder.
+
+    API calls are made here.
+    Saving of responses is handled by save_response.py.
+    """
 
     schema = {
     "type": "object",
@@ -59,41 +91,6 @@ def individual_input(input_text):
     "additionalProperties": False
     }
 
-
-    response = client.responses.create(
-        model="gpt-5.5",
-        instructions="Analyse this text and provide thematic codes in the following format: {\"codes\": [{\"code\": \"thematic code\", \"explanation\": \"brief explanation of the code\", \"quote\": \"a relevant quote from the text that supports the code\", \"confidence\": number from 0 to 1}]}:" \
-        "I often feel overwhelmed by my workload, but talking with colleagues helps me cope.",
-        input=input_text,
-        store=False,
-        include=["reasoning.encrypted_content"],
-        text={
-            "format": {
-                "type": "json_schema",
-                "name": "thematic_codes",
-                "schema": schema,
-            }
-        }
-    )
-    input_tokens = response.usage.input_tokens
-    output_tokens = response.usage.output_tokens
-    INPUT_TOKEN_COUNT = INPUT_TOKEN_COUNT + input_tokens
-    OUTPUT_TOKEN_COUNT = OUTPUT_TOKEN_COUNT + output_tokens
-    with open('input_token_count.txt', 'w') as file:
-        file.write(str(INPUT_TOKEN_COUNT))
-    with open('output_token_count.txt', 'w') as file:
-        file.write(str(OUTPUT_TOKEN_COUNT))
-    return(response) 
-
-def process_folder(experiment_folder):
-
-    """
-    Process all input txt files in an experiment folder.
-
-    API calls are made here.
-    Saving of responses is handled by save_response.py.
-    """
-
     experiment_folder = Path(experiment_folder)
 
     input_folder = experiment_folder / "input_files"
@@ -110,13 +107,7 @@ def process_folder(experiment_folder):
 
             start_time = time.perf_counter()
 
-            # log.write(
-            #     f"\n{datetime.now().isoformat()}\n"
-            #     f"Processing: {file.name}\n"
-            # )
-
             try:
-
                 # Read input text
                 with open(
                     file,
@@ -127,7 +118,7 @@ def process_folder(experiment_folder):
 
 
                 # Make API call
-                response = individual_input(text)
+                response = individual_input(text,prompt, schema, schema_name="thematic_codes")
 
 
                 # Save all response information
@@ -139,13 +130,6 @@ def process_folder(experiment_folder):
                     input_filename=file.name,
                     processing_time=elapsed
                 )
-
-
-                # log.write(
-                #     f"Status: SUCCESS\n"
-                #     f"Time: {elapsed:.2f} seconds\n"
-                # )
-
 
             except Exception as e:
 

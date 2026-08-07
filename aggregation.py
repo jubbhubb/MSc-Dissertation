@@ -150,11 +150,10 @@ def combine_json_files(input_path, output_file):
     for file in input_path.glob("*.json"):
         with open(file, "r", encoding="utf-8") as f:
             data = json.load(f)
-            combined_data.append(data)
+            combined_data.extend(data)
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(combined_data, f, indent=4, ensure_ascii=False)
-
 
 def combine_json_by_document(input_folder, output_folder):
     """

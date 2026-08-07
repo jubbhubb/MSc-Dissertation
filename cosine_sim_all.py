@@ -22,8 +22,8 @@ def cosine_similarity_between_documents(experiment_folder):
     """
 
     model = SentenceTransformer("all-MiniLM-L6-v2")
-    txt_path = Path(experiment_folder + "/recombined_files")
-    json_path = Path(experiment_folder + "/combined_json")
+    txt_path = Path(experiment_folder + "/input_files")
+    json_path = Path(experiment_folder + "/output_files")
 
     for txt_file in txt_path.glob("*.txt"):
 
