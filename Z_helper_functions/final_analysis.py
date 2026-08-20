@@ -43,10 +43,6 @@ import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
-# ----------------------------------------------------------------------
-# CONFIG (defaults — all overridable via CLI flags)
-# ----------------------------------------------------------------------
 DEFAULT_TRANSCRIPTS_DIR = "source_files"
 DEFAULT_REPORTS_DIR = "reports"
 DEFAULT_OUT_DIR = "analysis_output"
@@ -57,9 +53,6 @@ REPORT_NAME_RE = re.compile(
     r"^report_(inductive|deductive)_([A-Za-z]+)(\.\w+)?$", re.IGNORECASE
 )
 
-# ----------------------------------------------------------------------
-# TEXT CLEANING
-# ----------------------------------------------------------------------
 def load_transcript(path: Path, strip_lines: int = HEADER_LINES_TO_STRIP) -> str:
     """Read a transcript .txt file and drop the first N header lines."""
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
@@ -67,32 +60,26 @@ def load_transcript(path: Path, strip_lines: int = HEADER_LINES_TO_STRIP) -> str
 
 
 def clean_markdown(text: str) -> str:
-    """Strip common markdown syntax so it doesn't pollute the TF-IDF vocabulary."""
-    # Remove fenced code blocks
+    """Strip common markdown syntax so it doesn't pollute TF-IDF vocabulary."""
     text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
-    # Remove inline code
+    
     text = re.sub(r"`([^`]*)`", r"\1", text)
-    # Remove headers (#, ##, ### ...)
+
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)
-    # Remove horizontal rules (---, ***, ___ on their own line)
+    
     text = re.sub(r"^\s{0,3}([-*_])\1{2,}\s*$", " ", text, flags=re.MULTILINE)
-    # Remove markdown links/images, keep the link text: [text](url) -> text
+   
     text = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)
-    # Remove emphasis markers (**bold**, *italic*, __bold__, _italic_)
+    
     text = re.sub(r"(\*\*|__)(.*?)\1", r"\2", text)
     text = re.sub(r"(\*|_)(.*?)\1", r"\2", text)
-    # Remove blockquote markers and list bullets
+   
     text = re.sub(r"^\s{0,3}>\s?", "", text, flags=re.MULTILINE)
     text = re.sub(r"^\s*[-*+]\s+", "", text, flags=re.MULTILINE)
     text = re.sub(r"^\s*\d+\.\s+", "", text, flags=re.MULTILINE)
-    # Remove any remaining stray markdown punctuation
+
     text = re.sub(r"[#>*_`~]", " ", text)
     return text
-
-
-# NOTE: lowercasing / punctuation stripping / stopword removal is handled
-# by TfidfVectorizer itself (token_pattern + stop_words='english') below,
-# so we don't duplicate that logic here.
 
 
 def build_vectorizer(top_n: int) -> TfidfVectorizer:
@@ -117,10 +104,6 @@ def top_terms_corpus_mean(matrix, feature_names, top_n) -> set:
     top_idx = np.argsort(mean_scores)[::-1][:top_n]
     return {feature_names[i] for i in top_idx if mean_scores[i] > 0}
 
-
-# ----------------------------------------------------------------------
-# LOADING
-# ----------------------------------------------------------------------
 def load_transcripts(transcripts_dir: Path) -> dict:
     files = sorted(transcripts_dir.glob("*.txt"))
     if not files:
@@ -155,13 +138,10 @@ def load_reports(reports_dir: Path) -> pd.DataFrame:
 # ANALYSIS 1: TF-IDF RETENTION TABLE
 # ----------------------------------------------------------------------
 def compute_retention_table(transcripts: dict, reports_df: pd.DataFrame, top_n: int) -> pd.DataFrame:
-    # --- transcript-corpus top terms ---
     t_vectorizer = build_vectorizer(top_n)
     t_matrix = t_vectorizer.fit_transform(transcripts.values())
     t_features = t_vectorizer.get_feature_names_out()
     transcript_top_terms = top_terms_corpus_mean(t_matrix, t_features, top_n)
-
-    # --- report-corpus top terms (per report, IDF computed across the 14 reports) ---
     r_vectorizer = build_vectorizer(top_n)
     r_matrix = r_vectorizer.fit_transform(reports_df["clean_text"])
     r_features = r_vectorizer.get_feature_names_out()
@@ -244,10 +224,6 @@ def run_similarity_analysis(reports_df: pd.DataFrame, r_matrix, out_dir: Path):
 
     return ind_sim, ded_sim, inter_sim
 
-
-# ----------------------------------------------------------------------
-# MAIN
-# ----------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(description="TF-IDF retention + cosine similarity analysis")
     parser.add_argument("--transcripts", default=DEFAULT_TRANSCRIPTS_DIR)

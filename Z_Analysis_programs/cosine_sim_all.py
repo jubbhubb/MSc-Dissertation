@@ -4,7 +4,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-import preprocessing
+import Z_helper_functions.preprocessing as preprocessing
 
 
 results = []
@@ -36,9 +36,6 @@ def cosine_similarity_between_documents(experiment_folder):
             print(f"Missing JSON for {txt_file.name}")
             continue
 
-        # ---------------------------
-        # Original document
-        # ---------------------------
         with open(txt_file, "r", encoding="utf-8") as f:
             text = f.read()
 
@@ -46,12 +43,7 @@ def cosine_similarity_between_documents(experiment_folder):
             text,
             lowercase=True
         )
-
         original_embedding = model.encode([processed_text])
-
-        # ---------------------------
-        # Processed document
-        # ---------------------------
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
@@ -59,10 +51,6 @@ def cosine_similarity_between_documents(experiment_folder):
         processed_doc_text = " ".join(processed_doc)
 
         processed_embedding = model.encode([processed_doc_text])
-
-        # ---------------------------
-        # Similarity
-        # ---------------------------
         similarity = cosine_similarity(
             original_embedding,
             processed_embedding
@@ -75,11 +63,9 @@ def cosine_similarity_between_documents(experiment_folder):
             "processed_items": len(processed_doc)
         })
 
-    # Convert to DataFrame
     results_df = pd.DataFrame(results)
 
     print(results_df)
     csv_path = Path(experiment_folder) / "similarity_results.csv"
 
-    # Save results
     results_df.to_csv(csv_path, index=False)

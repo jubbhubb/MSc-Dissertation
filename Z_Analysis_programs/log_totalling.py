@@ -63,11 +63,7 @@ def summarise_report_log(log_file):
 
     return summary
 
-
-# Example usage
 # experiments_folder = "experiments_v6" #Deductive
-
-
 experiments_folder = "experiments_v5" #Inductive
 
 reasoning_pairs = [

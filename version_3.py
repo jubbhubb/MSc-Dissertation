@@ -49,6 +49,12 @@ def run_experiment():
     prompt = ""
     stage = "coding"
     start_time = datetime.now()
+
+
+     # =====================================
+    # Stage One - Coding
+    # =====================================
+
     for granularity in granularities:
         for reasoning in reasonings:
             if reasoning == Reasoning.INDUCTIVE:
@@ -78,6 +84,7 @@ def run_experiment():
     # =====================================
     # Stage Two- Theme Developement
     # =====================================
+
     stage = "theme_development"
 
     theme_transitions = [
@@ -102,9 +109,11 @@ def run_experiment():
             log_folder.mkdir(parents=True, exist_ok=True)
             theme_generation_pipeline_v2(stage, previous_granularity.value, new_granularity.value, reasoning, test_folder, experiment_folder)
             stage = "theme_grouping"
+
             # =====================================
             # Stage Three - Theme Grouping (Inductive only)
             # =====================================
+
             if reasoning.value == "inductive":
                 prompt = ""
                 combine_json_files(test_folder / "output_files", test_folder/"combined_codes.json")

@@ -117,41 +117,25 @@ def validate_quotes(experiment_folder):
 
 
     def strict_match(document, quote):
-        return evaluate_match(
-            document,
-            quote,
-            normalise
-        )
-
+        return evaluate_match(document, quote, normalise)
 
     def relaxed_match(document, quote):
-        return evaluate_match(
-            document,
-            quote,
-            normalise_relaxed
-        )
+        return evaluate_match(document, quote, normalise_relaxed)
 
     results = []
 
     for json_file in JSON_FOLDER.glob("*.json"):
-
-        # Results only for this individual document
         file_results = []
-
         txt_file = TXT_FOLDER / f"{json_file.stem}.txt"
-
         if not txt_file.exists():
             error_result = {
                 "file": json_file.name,
                 "error": "No matching text file"
             }
-
             results.append(error_result)
             file_results.append(error_result)
 
             continue
-
-
         document = txt_file.read_text(
             encoding="utf-8"
         )
@@ -183,8 +167,6 @@ def validate_quotes(experiment_folder):
                 "relaxed_matches": relaxed["matches"],
                 "relaxed_total": relaxed["total"]
             }
-
-            # Add to both combined and individual results
             results.append(result)
             file_results.append(result)
 

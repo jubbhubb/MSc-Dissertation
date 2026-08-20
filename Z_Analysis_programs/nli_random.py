@@ -21,25 +21,11 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
 
     MODEL_NAME = "facebook/bart-large-mnli"
 
-
-    # --------------------------------------------------
-    # Load model
-    # --------------------------------------------------
-
-    print("Loading NLI model...")
-
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
     model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
 
     model.eval()
-
-
-    # --------------------------------------------------
-    # Load all quote/explanation pairs
-    # --------------------------------------------------
-
-    print("Loading JSON files...")
 
     records = []
 
@@ -69,11 +55,6 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
 
     print(f"\nLoaded {len(records)} quote/explanation pairs.")
 
-
-    # --------------------------------------------------
-    # NLI helper
-    # --------------------------------------------------
-
     def run_nli(quote, explanation):
 
         inputs = tokenizer(
@@ -94,13 +75,6 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
             "neutral": float(probs[1]),
             "entailment": float(probs[2])
         }
-
-
-    # --------------------------------------------------
-    # Genuine pairs
-    # --------------------------------------------------
-
-    print("\nRunning genuine pair evaluation...")
 
     true_results = []
 
@@ -126,13 +100,6 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
             "contradiction": scores["contradiction"]
 
         })
-
-
-    # --------------------------------------------------
-    # Random baseline
-    # --------------------------------------------------
-
-    print("\nRunning random baseline...")
 
     random_results = []
 
@@ -167,40 +134,16 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
                 records[indices[i]]["explanation"]
             )
 
-            random_results.append({
-
-                "type": "Random",
-
-                "document": records[i]["document"],
-
-                "code": records[i]["code"],
-
-                "entailment": scores["entailment"],
-
-                "neutral": scores["neutral"],
-
-                "contradiction": scores["contradiction"]
-
+            random_results.append({ 
+                "type": "Random", "document": records[i]["document"], "code": records[i]["code"],
+                "entailment": scores["entailment"], "neutral": scores["neutral"], "contradiction": scores["contradiction"]
             })
-
-
-    # --------------------------------------------------
-    # Save CSV
-    # --------------------------------------------------
-
     results = pd.DataFrame(true_results + random_results)
 
     results.to_csv(
         output_folder + "/nli_random_baseline.csv",
         index=False
     )
-
-    print("\nSaved nli_random_baseline.csv")
-
-
-    # --------------------------------------------------
-    # Summary statistics
-    # --------------------------------------------------
 
     with open(JSON_FOLDER / "nli_random_baseline_stats.txt", "w") as f:
         print("\nSummary Statistics", file=f)
@@ -221,11 +164,6 @@ def nli_random_baseline(experiment_folder, test_name, display = True):
                 ].mean(),
                 file=f
             )
-
-    # --------------------------------------------------
-    # Plot entailment distributions
-    # --------------------------------------------------
-
     plt.figure(figsize=(8,5))
 
     for label in ["True", "Random"]:

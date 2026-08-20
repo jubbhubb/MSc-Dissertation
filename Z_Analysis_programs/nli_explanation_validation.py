@@ -20,10 +20,6 @@ def nli_explanation_validation(experiment_folder):
             quote_explanation_nli_validation.csv
     """
 
-    # ---------------------------
-    # Load NLI model
-    # ---------------------------
-
     tokenizer = AutoTokenizer.from_pretrained(
         "facebook/bart-large-mnli"
     )
@@ -38,11 +34,6 @@ def nli_explanation_validation(experiment_folder):
     json_path = Path(experiment_folder) / "output_files"
 
     results = []
-
-
-    # ---------------------------
-    # Process JSON files
-    # ---------------------------
 
     for json_file in json_path.glob("*.json"):
 
@@ -69,20 +60,9 @@ def nli_explanation_validation(experiment_folder):
             if not quote or not explanation:
                 continue
 
-
-            # ---------------------------
-            # Cleaning
-            # ---------------------------
-
-
             quote_clean = quote.lower().strip()
 
             explanation_clean = explanation.lower().strip()
-
-
-            # ---------------------------
-            # NLI prediction
-            # ---------------------------
 
             inputs = tokenizer(
                 explanation_clean,
@@ -111,12 +91,6 @@ def nli_explanation_validation(experiment_folder):
                 "neutral": float(probabilities[1]),
                 "entailment": float(probabilities[2])
             }
-
-
-            # ---------------------------
-            # Store result
-            # ---------------------------
-
             results.append({
 
                 "document": json_file.stem,
@@ -137,11 +111,6 @@ def nli_explanation_validation(experiment_folder):
                     scores["contradiction"]
 
             })
-
-
-    # ---------------------------
-    # Save results
-    # ---------------------------
 
     results_df = pd.DataFrame(results)
 
@@ -171,22 +140,9 @@ def calculate_nli_success_rate(results_file):
 
 
     return {
-
-        "average_entailment":
-            df["entailment_score"].mean(),
-
-        "average_neutral":
-            df["neutral_score"].mean(),
-
-        "average_contradiction":
-            df["contradiction_score"].mean(),
-
-        "high_confidence_entailments":
-            (
-                df["entailment_score"] > 0.8
-            ).mean(),
-
-        "total_quotes":
-            len(df)
-
+        "average_entailment": df["entailment_score"].mean(),
+        "average_neutral": df["neutral_score"].mean(),
+        "average_contradiction": df["contradiction_score"].mean(),
+        "high_confidence_entailments":( df["entailment_score"] > 0.8 ).mean(),
+        "total_quotes": len(df)
     }

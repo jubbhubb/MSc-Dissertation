@@ -13,9 +13,9 @@ def unique_themes(input_folder):
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
         # Extract themes from each document
-            for item in data:
-                if "theme" in item:
-                    all_themes.add(item["theme"])
+        for item in data:
+            if "theme" in item:
+                all_themes.add(item["theme"])
 
     # Print unique themes
     print("Unique themes:")

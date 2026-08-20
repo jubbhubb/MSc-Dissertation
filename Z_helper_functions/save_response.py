@@ -37,17 +37,9 @@ def save_response(
     state_folder.mkdir(exist_ok=True)
     log_folder.mkdir(exist_ok=True)
 
-
     file_stem = Path(input_filename).stem
 
-
-    # -----------------------------
-    # Save analytical output
-    # -----------------------------
-
-    # Extract the assistant text response
     output_text = response.output[-1].content[0].text
-
 
     output_json = json.loads(output_text)
     codes = output_json["codes"]
@@ -63,24 +55,12 @@ def save_response(
                         ensure_ascii=False
                     )
 
-
-    # -----------------------------
-    # Save API state
-    # -----------------------------
-
     api_state = {
         "response_id": response.id,
-
         "created_at": response.created_at,
-
         "model": response.model,
-
         "instructions": response.instructions,
-
-        "input_reference": {
-            "file": input_filename
-        },
-
+        "input_reference": {"file": input_filename},
         "reasoning": {
             "encrypted_content":
                 get_encrypted_reasoning(response)
@@ -106,11 +86,6 @@ def save_response(
             ensure_ascii=False
         )
 
-
-    # -----------------------------
-    # Save log entry
-    # -----------------------------
-
     log_file = log_folder / "run_log.txt"
 
     print("Saving response...")
@@ -119,29 +94,18 @@ def save_response(
 
     encrypted = get_encrypted_reasoning(response)
 
-    print(
-        "Encrypted reasoning found:",
-        encrypted is not None
-)
+    print("Encrypted reasoning found:", encrypted is not None)
      
-    with open(
-        log_file,
-        "a",
-        encoding="utf-8"
-    ) as f:
+    with open(log_file, "a", encoding="utf-8") as f:
 
-        f.write(
-            "\n"
-            f"{datetime.now().isoformat()}\n"
+        f.write("\n" f"{datetime.now().isoformat()}\n" 
             f"File: {input_filename}\n"
             f"Status: {response.status}\n"
             f"Model: {response.model}\n"
         )
 
         if processing_time:
-            f.write(
-                f"Processing time: {processing_time:.2f}s\n"
-            )
+            f.write(f"Processing time: {processing_time:.2f}s\n")
 
         if response.usage:
             f.write(
@@ -155,10 +119,7 @@ def get_encrypted_reasoning(response):
     """
     Extract encrypted reasoning item for future stateful calls.
     """
-
     for item in response.output:
-
         if hasattr(item, "encrypted_content"):
             return item.encrypted_content
-
     return None

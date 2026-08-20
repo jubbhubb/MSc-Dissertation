@@ -189,10 +189,6 @@ def combine_json_by_document(input_folder, output_folder):
     pattern = re.compile(r"^(.*?)_section_(\d+)\.json$")
 
     grouped_files = defaultdict(list)
-
-    # ------------------------------------------------------------------
-    # Group files by original document
-    # ------------------------------------------------------------------
     for file in input_folder.glob("*.json"):
 
         match = pattern.match(file.name)
@@ -206,9 +202,6 @@ def combine_json_by_document(input_folder, output_folder):
 
         grouped_files[document_name].append((section_number, file))
 
-    # ------------------------------------------------------------------
-    # Process each document
-    # ------------------------------------------------------------------
     for document_name, files in grouped_files.items():
 
         # Sort by section number
@@ -245,17 +238,12 @@ def combine_json_by_document(input_folder, output_folder):
             current_index += num_items
             total_items += num_items
 
-        # --------------------------------------------------------------
-        # Save combined JSON
-        # --------------------------------------------------------------
+       
         json_output = output_folder / f"{document_name}.json"
 
         with open(json_output, "w", encoding="utf-8") as f:
             json.dump(combined_data, f, indent=4, ensure_ascii=False)
 
-        # --------------------------------------------------------------
-        # Save metadata YAML
-        # --------------------------------------------------------------
         metadata = {
             "document": document_name,
             "number_of_sections": len(files),
