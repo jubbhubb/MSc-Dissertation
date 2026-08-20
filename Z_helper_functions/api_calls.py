@@ -1,0 +1,145 @@
+from pydoc import text
+from datetime import datetime
+from pathlib import Path
+import time
+from Z_helper_functions.save_response import save_response
+
+import openai 
+with open('key.txt', 'r') as file:
+    API = file.read()
+
+def individual_input(input_text, prompt, schema, schema_name="thematic_codes"):
+    print("INDIVIDUAL INPUT FUNCTION CALLED")
+    with open('input_token_count.txt', 'r') as file:
+        INPUT_TOKEN_COUNT = file.read()
+        INPUT_TOKEN_COUNT = int(INPUT_TOKEN_COUNT)
+
+    with open('output_token_count.txt', 'r') as file:
+        OUTPUT_TOKEN_COUNT = file.read()
+        OUTPUT_TOKEN_COUNT = int(OUTPUT_TOKEN_COUNT)
+
+    client = openai.OpenAI(api_key=API)
+    response = client.responses.create(
+        model="gpt-5.5",
+        instructions=prompt,
+        input=input_text,
+        store=False,
+        include=["reasoning.encrypted_content"],
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": schema_name,
+                "schema": schema,
+            }
+        }
+    )
+    input_tokens = response.usage.input_tokens
+    output_tokens = response.usage.output_tokens
+    INPUT_TOKEN_COUNT = INPUT_TOKEN_COUNT + input_tokens
+    OUTPUT_TOKEN_COUNT = OUTPUT_TOKEN_COUNT + output_tokens
+    with open('input_token_count.txt', 'w') as file:
+        file.write(str(INPUT_TOKEN_COUNT))
+    with open('output_token_count.txt', 'w') as file:
+        file.write(str(OUTPUT_TOKEN_COUNT))
+    return(response) 
+
+def process_folder(experiment_folder, prompt):
+    """
+    Process all input txt files in an experiment folder.
+
+    API calls are made here.
+    Saving of responses is handled by save_response.py.
+    """
+
+    schema = {
+    "type": "object",
+    "properties": {
+        "codes": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "quote": {
+                        "type": "string"
+                    },
+                    "confidence": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                    },
+                    "theme": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "code",
+                    "explanation",
+                    "quote",
+                    "confidence",
+                    "theme"
+                ],
+                "additionalProperties": False
+            }
+        }
+    },
+    "required": [
+        "codes"
+    ],
+    "additionalProperties": False
+    }
+
+    experiment_folder = Path(experiment_folder)
+
+    input_folder = experiment_folder / "input_files"
+    log_folder = experiment_folder / "logs"
+
+    log_folder.mkdir(exist_ok=True)
+
+    log_file = log_folder / "run_log.txt"
+
+
+    with open(log_file, "a", encoding="utf-8") as log:
+
+        for file in input_folder.glob("*.txt"):
+
+            start_time = time.perf_counter()
+
+            try:
+                # Read input text
+                with open(
+                    file,
+                    "r",
+                    encoding="utf-8"
+                ) as f:
+                    text = f.read()
+
+
+                # Make API call
+                response = individual_input(text,prompt, schema, schema_name="thematic_codes")
+
+
+                # Save all response information
+                elapsed = time.perf_counter() - start_time
+
+                save_response(
+                    response=response,
+                    experiment_folder=experiment_folder,
+                    input_filename=file.name,
+                    processing_time=elapsed
+                )
+
+            except Exception as e:
+
+                elapsed = time.perf_counter() - start_time
+
+                log.write(
+                    f"Status: FAILED\n"
+                    f"Error: {str(e)}\n"
+                    f"Time: {elapsed:.2f} seconds\n"
+                )

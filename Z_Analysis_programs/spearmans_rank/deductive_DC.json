@@ -1,0 +1,3378 @@
+[
+    {
+        "code": "low-perceived-institutional-impact",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Undefined",
+        "subtheme": "Institutional trust and voice efficacy"
+    },
+    {
+        "code": "specific-feedback-prompts",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "general-forms-harder-to-answer",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "rating-plus-optional-text",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "likert-scales-more-engaging",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "survey-length-as-barrier",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "mid-semester-feedback-enables-change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "end-of-semester-too-late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "feedback-benefit-lost-after-course",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "closing-the-loop-needed",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "unclear-who-reads-feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "transparency-confidentiality-tension",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Transparency-confidentiality balance"
+    },
+    {
+        "code": "live-feedback-visible-results",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "feedback-should-lead-to-visible-change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "students-use-direct-channels-for-urgent-issues",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "Actionable",
+        "subtheme": "Responsive routes for urgent issues"
+    },
+    {
+        "code": "asking-for-review-topics-and-acting",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Issue-to-solution mapping"
+    },
+    {
+        "code": "solution-focused-institutional-response",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Solution-focused responses"
+    },
+    {
+        "code": "feedback-loop-currently-weak",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "course-rep-as-midpoint",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Ongoing",
+        "subtheme": "Representatives and intermediary cycles"
+    },
+    {
+        "code": "student-rep-feedback-needs-return",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Ongoing",
+        "subtheme": "Representatives and intermediary cycles"
+    },
+    {
+        "code": "anonymity-barrier-to-honesty",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Undefined",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "departmental-responsibility-passing",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Undefined",
+        "subtheme": "Institutional ownership and accountability"
+    },
+    {
+        "code": "closing_the_loop_needed",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "feedback_for_future_cohorts_only",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "midterm_feedback_current_benefit",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "feedback_ping_pong",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Consistent",
+        "subtheme": "Managing conflicting cohort preferences"
+    },
+    {
+        "code": "not_heard_on_bus_issue",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "external_issue_response_needs_detail",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "townhall_visibility_but_limited_action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "feedback_forms_too_narrow",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Goal-referenced",
+        "subtheme": "Relevant scope and student-defined concerns"
+    },
+    {
+        "code": "student_voice_heard_not_acted",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "inclusive_feedback_for_language_barriers",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "named_feedback_increases_pressure",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "personalised_support_over_forms",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Actionable",
+        "subtheme": "Responsive support and personalised help"
+    },
+    {
+        "code": "staff_notice_and_reach_out",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Timely",
+        "subtheme": "Proactive and anticipatory support"
+    },
+    {
+        "code": "fear_of_judgement_barrier",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "effective_feedback_as_policy_change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "students_need_to_know_feedback_heard",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "professional_language_gap",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "overwhelming_information_load",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and usable communication"
+    },
+    {
+        "code": "unclear_feedback_pathway",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "response_documents_are_valued",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "initial_response_without_follow_up",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "lack_of_feedback_reduces_motivation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Motivation sustained by visible response"
+    },
+    {
+        "code": "transparent_changes_magic_wand",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "details_build_trust",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "disability_support_non_response",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "personal_tutor_actionable_support",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Responsive support and personalised help"
+    },
+    {
+        "code": "placement_feedback_brushed_off",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Actionable",
+        "subtheme": "Solution-focused responses"
+    },
+    {
+        "code": "Feedback outcomes invisible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Feedback sent into void",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Summarised feedback table",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "Lecturer response to comments",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Acknowledgement as first step",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Need to show action plan",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Specific change-or-no-change response",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Vague response unhelpful",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Rapid poll led to deadline extension",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Specific questions about implementation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Mid-semester feedback too late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Earlier feedback preferred",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Delayed committee limited usefulness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Quick response increases impact",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "End feedback does not help current learner",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Need feedback loop follow-up",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "Weekly small issues plus larger review",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Constantly open feedback channel",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Proactive personal check-ins",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular support"
+    },
+    {
+        "code": "Feedback overload",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Forms too long and effortful",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Optional ratings and comments",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Short targeted form",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Simple in-person feedback methods",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Overly generic feedback forms",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Goal-referenced",
+        "subtheme": "Relevant scope and student-defined concerns"
+    },
+    {
+        "code": "Targeted feedback based on observed problems",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "Course-specific questions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "Use well-organised course as exemplar",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Consistent",
+        "subtheme": "Standardised processes across courses"
+    },
+    {
+        "code": "Variation between courses",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Consistent",
+        "subtheme": "Standardised processes across courses"
+    },
+    {
+        "code": "External review for objectivity",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Consistent",
+        "subtheme": "External oversight and objectivity"
+    },
+    {
+        "code": "Conflict of interest in receiving criticism",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Consistent",
+        "subtheme": "External oversight and objectivity"
+    },
+    {
+        "code": "Overrepresentation of engaged students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Missing struggling students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Anonymity and fear of identification",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Undefined",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Uncomfortable direct criticism",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Undefined",
+        "subtheme": "Psychological safety and power dynamics"
+    },
+    {
+        "code": "Academic-only feedback scope",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Undefined",
+        "subtheme": "Scope of student experience and wellbeing"
+    },
+    {
+        "code": "Dismissal of wellbeing-related feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Undefined",
+        "subtheme": "Scope of student experience and wellbeing"
+    },
+    {
+        "code": "Preference for human discussion",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Undefined",
+        "subtheme": "Human connection and belonging"
+    },
+    {
+        "code": "Feedback_as_course_improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Future_students_benefit_more",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Effectiveness_requires_improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Need_visible_change_to_motivate_feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Lack_of_feedback_implementation_seen",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Feedback_needs_action_plan",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Survey_overload_reduces_engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Feedback_time_burden",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Feedback_format_should_fit_commuters",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "Paper_surveys_more_noticeable",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visibility and discoverability of opportunities"
+    },
+    {
+        "code": "Feedback_timing_end_of_semester",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Midterm_feedback_too_early",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Feedback_cycle_between_semesters",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Ongoing",
+        "subtheme": "Continuous improvement across semesters"
+    },
+    {
+        "code": "Constructive_questions_prompt_improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Specific_suggestions_are_useful",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Simple_feedback_questions_preferred",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Balancing_different_student_needs",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Goal-referenced",
+        "subtheme": "Balancing diverse student needs"
+    },
+    {
+        "code": "Anonymity_supports_honest_opinion",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Undefined",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Incentives_motivate_participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.8,
+        "theme": "Undefined",
+        "subtheme": "Participation motivation and incentives"
+    },
+    {
+        "code": "Engaged_students_more_likely_to_feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.83,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Feedback loop absent",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Need acknowledgement of student voice",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Immediate benefit from feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Short-term and long-term changes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Repeated feedback without current action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Changes motivate survey participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Ongoing",
+        "subtheme": "Motivation sustained by visible response"
+    },
+    {
+        "code": "Survey feedback should be reciprocated",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Pointlessness from no visible change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Immediate deadline adjustment from poll",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Online discussion questions can be misinterpreted",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clarity of communication"
+    },
+    {
+        "code": "Limited lecturer control over feedback channels",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.79,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Implement changes straightaway",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Feedback collection excludes some voices",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Peer visibility and representativeness"
+    },
+    {
+        "code": "Attenders provide more constructive feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.76,
+        "theme": "Tangible and transparent",
+        "subtheme": "Peer visibility and representativeness"
+    },
+    {
+        "code": "Survey length as barrier",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Progress bar helps completion",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Mandatory long questions prompt dropout",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Doubt change undermines effort",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "In-the-moment QR feedback is distracting",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Timing and context of completion"
+    },
+    {
+        "code": "Feedback link lost after event",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and reliable feedback tools"
+    },
+    {
+        "code": "Appropriate recipients of feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Appropriate routing and decision-makers"
+    },
+    {
+        "code": "Escalation if no initiative",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "Actionable",
+        "subtheme": "Escalation and accountability"
+    },
+    {
+        "code": "Course pace prevents deeper learning",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.79,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with learning goals and workload"
+    },
+    {
+        "code": "Assessment workload misaligned with learning capacity",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with learning goals and workload"
+    },
+    {
+        "code": "Need empathy in extension decisions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.81,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "Moderating workload across course components",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.76,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with learning goals and workload"
+    },
+    {
+        "code": "Group work weighting risk",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.81,
+        "theme": "Consistent",
+        "subtheme": "Reliable and fair assessment criteria"
+    },
+    {
+        "code": "Unclear peer review consequences",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Fear of penalty for honest peer feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Consistent",
+        "subtheme": "Reliable and fair assessment criteria"
+    },
+    {
+        "code": "Peer moderation as strategic game",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "Consistent",
+        "subtheme": "Reliable and fair assessment criteria"
+    },
+    {
+        "code": "Unanimity increases peer marking fairness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Consistent",
+        "subtheme": "Reliable and fair assessment criteria"
+    },
+    {
+        "code": "Large classes reduce visibility",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.76,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visibility of individual student experience"
+    },
+    {
+        "code": "Physical classroom mismatch affects learning",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.72,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with learning goals and learning conditions"
+    },
+    {
+        "code": "Programme rep communication unclear",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Clear contact routes and navigation"
+    },
+    {
+        "code": "Need dedicated rep communication space",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Clear contact routes and navigation"
+    },
+    {
+        "code": "feedback_too_late_for_current_cohort",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "midterm_feedback_without_midterm_change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "continuous_feedback_reassurance",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "previous_cohort_feedback_improves_courses",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Ongoing",
+        "subtheme": "Continuous improvement across cohorts"
+    },
+    {
+        "code": "week_one_to_end_feedback_space",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "dismissed_negative_feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Constructive engagement with criticism"
+    },
+    {
+        "code": "vague_take_into_account_response",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "lack_of_survey_process_transparency",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "minutes_and_feedback_outcomes_shared",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "transparent_class_data_requested",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "survey_overload_open_boxes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "personalised_feedback_collection",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "digitised_impersonal_feedback_barrier",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "small_class_direct_support",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "tutors_as_accessible_feedback_channel",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "tutor_quality_varies",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Consistent",
+        "subtheme": "Variation in staff practice"
+    },
+    {
+        "code": "need_standardised_formula_booklets",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Consistent",
+        "subtheme": "Standardised learning supports"
+    },
+    {
+        "code": "external_accountability_for_feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Consistent",
+        "subtheme": "External oversight and objectivity"
+    },
+    {
+        "code": "effective_feedback_shows_respect_and_change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "assignment_feedback_too_brief",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "exam_feedback_only_numbers",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "detailed_comments_explain_marks",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "feedback_should_show_observable_reasons",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "anonymous_feedback_enables_honesty",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Undefined",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "safe_focus_groups_support_expression",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Undefined",
+        "subtheme": "Human connection and belonging"
+    },
+    {
+        "code": "Email-triggered feedback-seeking after crisis",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Actionable",
+        "subtheme": "Preventing recurrence through improvement"
+    },
+    {
+        "code": "Feedback forms are too long and inaccurate on time",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Feedback forms not mobile accessible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and reliable feedback tools"
+    },
+    {
+        "code": "Unclear feedback route",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Feedback not passed on or acted upon",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Appropriate routing and decision-makers"
+    },
+    {
+        "code": "Student representatives lack implementation pathways",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Optional open feedback reduces substantive input",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Email-only processes exclude some students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "Anonymous forms lack visible recipient or outcome",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "In-person feedback more likely to receive follow-up",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "Lack of feedback follow-up discourages future engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Motivation sustained by visible response"
+    },
+    {
+        "code": "Evidence submitted but not meaningfully addressed",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "Student representatives without a feedback destination",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "End-of-course feedback is too late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "Feedback not used across cohorts",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "Survey questions are vague and repetitive",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "No proof of action after surveys",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "Surveys do not ask about students’ real problems",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Goal-referenced",
+        "subtheme": "Relevant scope and student-defined concerns"
+    },
+    {
+        "code": "Feedback pathways send students in circles",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Accessibility support feedback deflected elsewhere",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "Automated confirmation is insufficient feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Complaints and appeals give inconsistent jurisdictional advice",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Consistent",
+        "subtheme": "Internal coordination and consistent information"
+    },
+    {
+        "code": "Staff give conflicting or misleading information",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Consistent",
+        "subtheme": "Internal coordination and consistent information"
+    },
+    {
+        "code": "Effective feedback requires action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.99,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Acknowledgement and next steps matter when action is not immediate",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Delayed escalation wastes student time",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Need central feedback hub",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Need institutional accountability for feedback resolution",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Actionable",
+        "subtheme": "Escalation and accountability"
+    },
+    {
+        "code": "Feedback burden interferes with studying",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Representatives heard only when staff choose to respond",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Consistent",
+        "subtheme": "External oversight and accountability"
+    },
+    {
+        "code": "Feedback system should not rely on students alone",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Actionable",
+        "subtheme": "Escalation and accountability"
+    },
+    {
+        "code": "Broader welfare and financial hardship concerns",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Undefined",
+        "subtheme": "Scope of student experience and wellbeing"
+    },
+    {
+        "code": "Implementation visibility",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Disorganised feedback meetings",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Space to express feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Fear of identifying individuals",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Survey fatigue",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Repeated feedback ignored",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "Need reasons for decisions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Closed questions limit detail",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Generic surveys inadequate for experimental courses",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Feedback gathered too late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "Evidence of feedback-led improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Ongoing",
+        "subtheme": "Continuous improvement across cohorts"
+    },
+    {
+        "code": "Selective implementation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Consistent",
+        "subtheme": "Selective implementation and reliability"
+    },
+    {
+        "code": "Mismatch between credit value and workload",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with learning goals and workload"
+    },
+    {
+        "code": "Unclear course expectations before enrolment",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Goal-referenced",
+        "subtheme": "Purpose and expectations made explicit"
+    },
+    {
+        "code": "Staff assumptions versus student experience",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Desire for discussion-based feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue feels received"
+    },
+    {
+        "code": "Redundant or intrusive questions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Respectful and proportionate questions"
+    },
+    {
+        "code": "Clarifying purpose of demographic data",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Anonymity enables participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Accessible feedback formats",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Accessible and inclusive design"
+    },
+    {
+        "code": "Course-page feedback access",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Visibility and discoverability of opportunities"
+    },
+    {
+        "code": "Incentives increase response rates",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "User-friendly",
+        "subtheme": "Participation motivation and incentives"
+    },
+    {
+        "code": "Useful exchange for feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Participation motivation and incentives"
+    },
+    {
+        "code": "Transactional relationship reduces feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Ongoing",
+        "subtheme": "Community relationship and feedback culture"
+    },
+    {
+        "code": "Representatives for quieter communities",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Inclusive representation"
+    },
+    {
+        "code": "Face-to-face low-pressure feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Midterm paper feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Multimodal feedback routes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Class reps as anonymous intermediaries",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Retaliation concerns",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Feedback channels lack authority",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Appropriate routing and decision-makers"
+    },
+    {
+        "code": "Transparency as core principle",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Lecturer conversation alongside surveys",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Transparency builds community",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue and community trust"
+    },
+    {
+        "code": "Isolation suppresses feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Group feedback normalises experience",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Tutorials as feedback setting",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Credit for feedback participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Participation motivation and incentives"
+    },
+    {
+        "code": "Feedback loop visibility",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Surveys feel tedious",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Immediate capture of concerns",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Unclear institutional hierarchy",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Questioning feedback usefulness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Summary and planned response",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "Short-term implementation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Immediate course changes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "No evidence of university-wide action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "Change as motivation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Unconstructive complaint channels",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.83,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Feedback participation statistics",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Consistent",
+        "subtheme": "Representative and reliable evidence"
+    },
+    {
+        "code": "Feedback needs time to resolve issues",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Delayed representation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Anonymity as psychological safety",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Multiple feedback modes needed",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Feedback pessimism reduces participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Feedback impact after graduation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Structured recurring feedback plan",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Open forum for anytime feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Monthly course-rep meetings",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Ongoing",
+        "subtheme": "Representatives and intermediary cycles"
+    },
+    {
+        "code": "Short- and long-term plans",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Keeping students in the process",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "More frequent than once per semester",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Q&A as actionable clarification",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Evidence beyond performative care",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "Issue-solution mapping",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Issue-to-solution mapping"
+    },
+    {
+        "code": "Anonymous feedback condition",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Action item for every point",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Issue-to-solution mapping"
+    },
+    {
+        "code": "Feedback prompts reflection",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Online feedback lowers engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.8,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Access to higher levels",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Know who makes decisions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Empathy through role clarity",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Goal-referenced",
+        "subtheme": "Appropriate recipients and role clarity"
+    },
+    {
+        "code": "Accommodation feedback not addressed quickly",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Unhelpful complaint options",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Actionable",
+        "subtheme": "Solution-focused responses"
+    },
+    {
+        "code": "Feedback without adequate protection",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Survey response fatigue",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Underrepresented quiet students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Inclusive representation"
+    },
+    {
+        "code": "In-person feedback richness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue feels received"
+    },
+    {
+        "code": "Buddy check-in system",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular support"
+    },
+    {
+        "code": "Low-pressure scheduled meetings",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Feedback at school level",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Personal contact builds empathy",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.87,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue feels received"
+    },
+    {
+        "code": "Mid-course feedback can enable within-course changes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Feedback timing halfway through semester may be too late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Shorter feedback formats reduce burden",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Time and effort affect willingness to give feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Perceived lack of change discourages feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Unclear destination of feedback data",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Sharing feedback results and planned improvements",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "Seeing feedback acted on encourages future feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Repeated unresolved issues damage confidence",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "Feedback systems may overrepresent engaged students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Feedback invitations need to be visible and accessible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visibility and discoverability of opportunities"
+    },
+    {
+        "code": "Multiple distribution methods support wider participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.81,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Email overload reduces feedback visibility",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Visibility and discoverability of opportunities"
+    },
+    {
+        "code": "Perceived care from staff increases feedback engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.78,
+        "theme": "Undefined",
+        "subtheme": "Human connection and belonging"
+    },
+    {
+        "code": "Email as sole feedback route can feel intimidating",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Need for standardised feedback platforms",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Consistent",
+        "subtheme": "Standardised processes across courses"
+    },
+    {
+        "code": "Anonymity should be optional",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Effective feedback requires acknowledgement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Addressing feedback through practical teaching changes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Partial solutions are valued when exact requests are not possible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Actionable",
+        "subtheme": "Solution-focused responses"
+    },
+    {
+        "code": "Feedback-led changes to format and content detail",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Course organiser usually best placed to respond",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.81,
+        "theme": "Goal-referenced",
+        "subtheme": "Appropriate recipients and role clarity"
+    },
+    {
+        "code": "Peer visibility can show how widespread an issue is",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Tangible and transparent",
+        "subtheme": "Peer visibility and representativeness"
+    },
+    {
+        "code": "In-person interaction makes informal feedback easier",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "More constant feedback loop requested",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Mandatory acknowledgement and response plan",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Consistent universal system with visibility and anonymity options",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Consistent",
+        "subtheme": "Standardised processes across courses"
+    },
+    {
+        "code": "Unclear use of survey feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "In-person feedback as more engaging",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "End-of-tutorial feedback opportunity",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.84,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Motivated by improvement and value",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.65,
+        "theme": "Undefined",
+        "subtheme": "Participation motivation and incentives"
+    },
+    {
+        "code": "No visible implementation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Need feedback loop after surveys",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "In-person response feels better",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue feels received"
+    },
+    {
+        "code": "Survey fatigue from repetition",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Unclear destination of feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Email forms accessible but impersonal",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Feedback barrier through being passed around",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Slow navigation to correct contact",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Inconsistent information before enrolment",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.82,
+        "theme": "Consistent",
+        "subtheme": "Internal coordination and consistent information"
+    },
+    {
+        "code": "Communication between university parts needs improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.77,
+        "theme": "Consistent",
+        "subtheme": "Internal coordination and consistent information"
+    },
+    {
+        "code": "No communication about feedback use",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Effective feedback requires evidence of action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Repeated surveys feel performative",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Evidence, accountability and progress updates"
+    },
+    {
+        "code": "Feedback should lead to concrete options",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Actionable",
+        "subtheme": "Solution-focused responses"
+    },
+    {
+        "code": "Mixed feedback methods preferred",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Lack of visible outcomes discourages future feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Ongoing",
+        "subtheme": "Motivation sustained by visible response"
+    },
+    {
+        "code": "Magic-wand priority is implementation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Long forms reduce engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Need acknowledgement of submitted feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Feedback should lead to visible action",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Unclear coursework instructions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clarity of communication"
+    },
+    {
+        "code": "Poor timing of assessment information",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Feedback not represented in minutes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "Discussion without sufficient actions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Positive example of deadline extension",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Prompt lecturer response builds confidence",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Multiple feedback routes support participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Anonymity increases willingness to give feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Feedback results shared back to students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible results, summaries and data"
+    },
+    {
+        "code": "Large cohorts dilute student voice",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Effective feedback changes current learning",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Early enough for current cohort"
+    },
+    {
+        "code": "Delayed improvements feel useless to current students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Earlier release of materials helps preparation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Sample paper did not match exam difficulty",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Goal-referenced",
+        "subtheme": "Assessment alignment and expectations"
+    },
+    {
+        "code": "Feedback should reach decision-makers",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Actionable",
+        "subtheme": "Appropriate routing and decision-makers"
+    },
+    {
+        "code": "Regular feedback opportunities needed",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Fear of consequences limits candour",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Anonymous feedback enables honest critique",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Repeated unresolved facility feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Listening groups amplify underrepresented students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.86,
+        "theme": "Undefined",
+        "subtheme": "Representativeness and missing voices"
+    },
+    {
+        "code": "Collated listening group outcomes preserve confidentiality",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Transparency-confidentiality balance"
+    },
+    {
+        "code": "Closed-loop reporting of changes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the loop and acknowledgement"
+    },
+    {
+        "code": "Visible impact motivates engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visible implementation and impact"
+    },
+    {
+        "code": "Student-designed prompts improve relevance",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Relevant and student-centred prompts"
+    },
+    {
+        "code": "Short QR-code feedback increases participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Email overload reduces feedback access",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Visibility and discoverability of opportunities"
+    },
+    {
+        "code": "Over-surveying creates disengagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Feedback after exams is too late",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Too late to benefit current students"
+    },
+    {
+        "code": "Slow course change limits usefulness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Delayed support loses value",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Need anticipatory feedback before problems escalate",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Proactive and anticipatory support"
+    },
+    {
+        "code": "Pre-exam concern feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Proactive and anticipatory support"
+    },
+    {
+        "code": "Feedback without action is disheartening",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Ongoing",
+        "subtheme": "Current versus future cohort benefit"
+    },
+    {
+        "code": "Continuous student-rep feedback channel",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Ongoing",
+        "subtheme": "Representatives and intermediary cycles"
+    },
+    {
+        "code": "Need repeated opportunities to fix issues during semester",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Feedback should be routed to responsible actors",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Appropriate routing and decision-makers"
+    },
+    {
+        "code": "Specific issue-solution process",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Actionable",
+        "subtheme": "Issue-to-solution mapping"
+    },
+    {
+        "code": "Concrete institutional fixes expected",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Actionable",
+        "subtheme": "Visible implementation and change"
+    },
+    {
+        "code": "Dismissive response undermines feedback culture",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and respectful engagement"
+    },
+    {
+        "code": "Need moderated response to sensitive feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "Tangible and transparent",
+        "subtheme": "Transparency-confidentiality balance"
+    },
+    {
+        "code": "Exam should reflect taught course content",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Goal-referenced",
+        "subtheme": "Assessment alignment and expectations"
+    },
+    {
+        "code": "Learning concerns should inform assessment weighting",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Goal-referenced",
+        "subtheme": "Assessment alignment and expectations"
+    },
+    {
+        "code": "Variable openness across courses",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Consistent",
+        "subtheme": "Variation in staff practice"
+    },
+    {
+        "code": "Unclear central communication routes",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Complex processes slow visible change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Clear contact routes and navigation"
+    },
+    {
+        "code": "Praise is underrepresented in feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Undefined",
+        "subtheme": "Positive and negative feedback bias"
+    },
+    {
+        "code": "No response after student feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "Desire to see how feedback data is used",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Closing the feedback loop via course email",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "Staff specify actions taken from feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Concrete action plans and next steps"
+    },
+    {
+        "code": "Mid-semester feedback implemented immediately",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Vague acknowledgement without implementation detail",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "In-class paper feedback increases engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden concise formats"
+    },
+    {
+        "code": "Low response rates blamed on students",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Surveys clash with assessment deadlines",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Final course feedback should follow assessment feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Feedback helps identify mistakes and improvement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Balance between immediacy and reflection",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Timely",
+        "subtheme": "Timing around workload and reflection"
+    },
+    {
+        "code": "Survey purpose needs explanation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Goal-referenced",
+        "subtheme": "Purpose and rationale made explicit"
+    },
+    {
+        "code": "Generic surveys reduce relevance",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "Repeated identical surveys cause fatigue",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Peer comparison would make results visible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Tangible and transparent",
+        "subtheme": "Peer visibility and representativeness"
+    },
+    {
+        "code": "Unclear readership undermines trust",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Face-to-face feedback feels received",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Human dialogue feels received"
+    },
+    {
+        "code": "Repeated issues without change damage credibility",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "Need explanation when change is impossible",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Dialogue valued over instant change",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Ongoing",
+        "subtheme": "Closed feedback cycle and follow-up over time"
+    },
+    {
+        "code": "Multiple feedback routes support different needs",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Multiple modes and accessible channels"
+    },
+    {
+        "code": "Fear of repercussions limits direct feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "Feedback invitation must be explicit",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Goal-referenced",
+        "subtheme": "Purpose and rationale made explicit"
+    },
+    {
+        "code": "Too frequent requests can be overkill",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    },
+    {
+        "code": "Course team commitment affects responsiveness",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.9,
+        "theme": "Ongoing",
+        "subtheme": "Community relationship and feedback culture"
+    },
+    {
+        "code": "Lack of tutorial response creates inequity",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "Ongoing",
+        "subtheme": "Repeated unresolved issues"
+    },
+    {
+        "code": "Listening and justification can be enough",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Reasons, rationale and explanations"
+    },
+    {
+        "code": "Office hours enable timely issue resolution",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Rapid response while actionable"
+    },
+    {
+        "code": "Outdated contact information blocks feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.93,
+        "theme": "User-friendly",
+        "subtheme": "Clear contact routes and navigation"
+    },
+    {
+        "code": "Clear directions to staff offices matter",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Clear contact routes and navigation"
+    },
+    {
+        "code": "Tailored course-specific survey questions",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Goal-referenced",
+        "subtheme": "Specific and targeted prompts"
+    },
+    {
+        "code": "Predetermined answer scales are restrictive",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Constructive, specific input"
+    },
+    {
+        "code": "Feedback should allow students’ own terms",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Group discussion as alternative to surveys",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.89,
+        "theme": "User-friendly",
+        "subtheme": "Personal, conversational and low-pressure engagement"
+    },
+    {
+        "code": "Regular tutorial feedback cycle",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Continuous and regular channels"
+    },
+    {
+        "code": "Peer agreement increases accountability",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Tangible and transparent",
+        "subtheme": "Peer visibility and representativeness"
+    },
+    {
+        "code": "Detailed tutor feedback models better student feedback",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "Brief generic feedback discourages engagement",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.94,
+        "theme": "Actionable",
+        "subtheme": "Practical academic and assessment improvement"
+    },
+    {
+        "code": "FAQ could clarify course design rationale",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.92,
+        "theme": "Goal-referenced",
+        "subtheme": "Purpose and rationale made explicit"
+    },
+    {
+        "code": "Unclear marker identity blocks follow-up",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Clear pathway, recipients and decision authority"
+    },
+    {
+        "code": "Perceived unfair marking needs reliable moderation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.91,
+        "theme": "Consistent",
+        "subtheme": "Reliable and fair assessment criteria"
+    },
+    {
+        "code": "Staff availability limits feedback access",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Delays and responsiveness barriers"
+    },
+    {
+        "code": "Survey fatigue lowers participation",
+        "explanation": "",
+        "quote": "",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Survey fatigue and overload management"
+    }
+]

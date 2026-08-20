@@ -1,0 +1,370 @@
+[
+    {
+        "code": "visible_peer_feedback",
+        "explanation": "Students suggest allowing peers to see or endorse feedback to show whether an issue is widespread and reduce isolation.",
+        "quote": "\"allow other students to read feedback... they can kind of support it or like it so that the professor knows... how widespread a certain issue is\"; \"look at how many of your peers agreed with you.\"",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Collective visibility and validation"
+    },
+    {
+        "code": "feedback_timing_competes_with_deadlines",
+        "explanation": "Students are less likely to complete feedback when requests arrive during assessment-heavy periods.",
+        "quote": "\"when the feedback forms come... we usually have assignments to complete\"; \"I don't think I did any of them in time to mid term feedback, because I had so many deadlines.\"",
+        "confidence": 0.94,
+        "theme": "Timely",
+        "subtheme": "Timing around student workload"
+    },
+    {
+        "code": "responding_to_positive_feedback",
+        "explanation": "Students note that feedback should capture and preserve what works well, not only complaints, so effective practice can be repeated.",
+        "quote": "\"feedback doesn't necessarily have to be negative\"; \"I sort of like wanted to be clear about that for that course... maybe those sort of copy the other one.\"",
+        "confidence": 0.89,
+        "theme": "Actionable",
+        "subtheme": "Sustaining effective practice"
+    },
+    {
+        "code": "pastoral_feedback_gap",
+        "explanation": "Some students feel feedback mechanisms focus narrowly on academic delivery and fail to ask about wellbeing, workload, commuting, or belonging, which shape learning experience but do not fit the given feedback themes precisely.",
+        "quote": "\"It's not mostly... how do you feel about animal module... I have a comment on my well being in campus\"; \"the feedback that we are allowed to give from the survey... are always academic.\"",
+        "confidence": 0.84,
+        "theme": "Undefined",
+        "subtheme": "Whole-student experience and wellbeing"
+    },
+    {
+        "code": "incentives_for_participation",
+        "explanation": "Students discuss vouchers, credits, and rewards as motivators for giving feedback; this concerns participation incentives rather than the quality of feedback itself.",
+        "quote": "\"if this didn’t have the voucher, I wouldn't have come\"; \"Even 1% I feel would be enough to incentivize students.\"",
+        "confidence": 0.88,
+        "theme": "Undefined",
+        "subtheme": "Motivating engagement with feedback"
+    },
+    {
+        "code": "community_and_belonging",
+        "explanation": "Students link willingness to give feedback with feeling part of a university community rather than a transactional service relationship; this is important context but not directly captured by the specified feedback-quality themes.",
+        "quote": "\"if you see it only as a transactional interaction... then you're not going to bother\"; \"if your community then, even if it isn't for me, it might be for my friend.\"",
+        "confidence": 0.87,
+        "theme": "Undefined",
+        "subtheme": "Community responsibility and belonging"
+    },
+    {
+        "code": "simple_rating_plus_optional_comment",
+        "explanation": "Students suggest combining quick rating scales with optional open text to reduce burden while still allowing detail.",
+        "quote": "\"more like, Likert Scales... And then if the respondent wants to answer more, they can just do that in the text box\"; \"three or four yes or no questions. And then optional comments at the end.\"",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden feedback design"
+    },
+    {
+        "code": "feedback_not_email_only",
+        "explanation": "Email distribution is often ineffective because students are overloaded, miss messages, or do not check email regularly.",
+        "quote": "\"email's not a good way of communicating with us. Just because we get so many of them\"; \"sometimes you just get lost with all your emails, you've just missed the survey.\"",
+        "confidence": 0.96,
+        "theme": "User-friendly",
+        "subtheme": "Accessible feedback channels"
+    },
+    {
+        "code": "multimodal_feedback_options",
+        "explanation": "Students prefer multiple avenues—online forms, paper forms, class discussion, tutorials, focus groups, QR codes—so different students can engage in ways that suit them.",
+        "quote": "\"Anonymity, multimodality, and transparency\"; \"I feel like the key is just having different avenues... people can use whichever option suits them.\"",
+        "confidence": 0.98,
+        "theme": "User-friendly",
+        "subtheme": "Accessible feedback channels"
+    },
+    {
+        "code": "in_class_paper_or_qr_feedback",
+        "explanation": "Feedback embedded in lectures or tutorials using paper, QR codes, or short activities is seen as easier and more likely to get responses.",
+        "quote": "\"at the end of one of my lecture courses... the lecturer gave up notes and collects them in at the end\"; \"the QR codes work a lot better.\"",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Embedded and timely opportunities"
+    },
+    {
+        "code": "anonymous_options_support_honesty",
+        "explanation": "Students often feel anonymity is necessary to give frank feedback without fear of judgement, retaliation, or damaging relationships with staff.",
+        "quote": "\"I wouldn't have said anything because obviously that way, it's not anonymous\"; \"when it is anonymous, you can be as honest as possible.\"",
+        "confidence": 0.97,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "named_feedback_can_be_useful",
+        "explanation": "Some students want both anonymous and identifiable routes, because personal feedback can allow follow-up while sensitive issues require anonymity.",
+        "quote": "\"having both as an option is pretty important\"; \"Some feedback can be personal so I think that it's good having both anonymous feedback, and feedback where the professor knows who it's coming from.\"",
+        "confidence": 0.9,
+        "theme": "User-friendly",
+        "subtheme": "Choice and control over identity"
+    },
+    {
+        "code": "language_and_cultural_access",
+        "explanation": "Non-native English speakers and international students may need more accessible language, support, and culturally sensitive feedback routes.",
+        "quote": "\"I'm not a native speaker... I need more time than other students\"; \"is it possible for surveys to be more inclusive for international students\"; \"also cultural differences.\"",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Inclusive accessibility needs"
+    },
+    {
+        "code": "digital_and_device_accessibility",
+        "explanation": "Feedback forms need to be easy to use on phones and accessible with assistive technologies; otherwise students abandon them.",
+        "quote": "\"I use my phone to give feedback. And there are many times that it’s not really smartphone friendly... So I just give up\"; \"making sure that text to speech and things like that in formatting is accessible.\"",
+        "confidence": 0.95,
+        "theme": "User-friendly",
+        "subtheme": "Inclusive accessibility needs"
+    },
+    {
+        "code": "avoid_overwhelming_open_questions",
+        "explanation": "Large open-text questions can be burdensome when students are busy, reducing completion and depth of feedback.",
+        "quote": "\"you get to the big massive question that's like, ‘in your own words...’ I don't want to write like that much\"; \"all of the questions are... formulate something to say each point which put off people a lot.\"",
+        "confidence": 0.94,
+        "theme": "User-friendly",
+        "subtheme": "Low-burden feedback design"
+    },
+    {
+        "code": "small_group_feedback_safer",
+        "explanation": "Tutorials, listening groups, and focus groups are perceived as more personal and less intimidating than large lectures or impersonal surveys.",
+        "quote": "\"tutorial groups... would perhaps be the best kind of time and place to give feedback... small group, so you don't feel as intimidated\"; \"giving feedback in this sort of environment... makes me feel like I’m not just experiencing these things alone.\"",
+        "confidence": 0.92,
+        "theme": "User-friendly",
+        "subtheme": "Psychological safety and anonymity"
+    },
+    {
+        "code": "course_specific_questions",
+        "explanation": "Generic survey questions are seen as less useful than questions tailored to the specific course, lecture, assessment, or known issue.",
+        "quote": "\"it would be much more constructive if the lecturer themselves designed the survey... it needs to be more relevant\"; \"if there were questions that were more specifically tailored to the course, then I would have an easier time.\"",
+        "confidence": 0.97,
+        "theme": "Goal-referenced",
+        "subtheme": "Context-specific feedback prompts"
+    },
+    {
+        "code": "feedback_against_course_goals",
+        "explanation": "Students want feedback processes to evaluate whether teaching, workload, assessments, and advertised course aims align with what students actually experience.",
+        "quote": "\"The amount of work they're requesting of the students doesn't match 10 credits\"; \"it was not advertised as such a huge component in the course.\"",
+        "confidence": 0.92,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with course aims and workload expectations"
+    },
+    {
+        "code": "assessment_expectations_unclear",
+        "explanation": "Students identify poor feedback and guidance where assessment expectations are not clear or aligned with exam difficulty.",
+        "quote": "\"they only gave us one sample paper... the exam was way harder than sample paper\"; \"can you at least give us one or two more? Like, so we have a better idea of this exam?\"",
+        "confidence": 0.93,
+        "theme": "Goal-referenced",
+        "subtheme": "Alignment with assessment expectations"
+    },
+    {
+        "code": "clear_success_criteria_needed",
+        "explanation": "Students want consistent criteria, examples, and shared understanding of what quality looks like, especially for exams, marking, and peer moderation.",
+        "quote": "\"there seems to be... a discrepancy between the teaching staff’s impression of required hours, versus the student's actual experience\"; \"I don't know what to do, mark them... I could penalise in a way for telling the truth.\"",
+        "confidence": 0.86,
+        "theme": "Consistent",
+        "subtheme": "Shared standards and success criteria"
+    },
+    {
+        "code": "inconsistent_across_courses",
+        "explanation": "Students describe large variation between courses in whether feedback is requested, acknowledged, acted on, or used to improve teaching.",
+        "quote": "\"practically every course I've taken, it's been such a range, like some good some bad\"; \"it really varies on how much they then fed back to us about the feedback that was given.\"",
+        "confidence": 0.98,
+        "theme": "Consistent",
+        "subtheme": "Variation in feedback practice across courses"
+    },
+    {
+        "code": "standardised_feedback_system",
+        "explanation": "Students recommend a consistent feedback system across courses so they know where to give feedback, how anonymity works, and what response to expect.",
+        "quote": "\"have there be like a consistent system that was used for all courses\"; \"standardise it... there are too many different applications used.\"",
+        "confidence": 0.97,
+        "theme": "Consistent",
+        "subtheme": "Standardised feedback processes"
+    },
+    {
+        "code": "objective_external_review",
+        "explanation": "Some students want feedback reviewed by someone outside the course to reduce conflicts of interest and improve consistency in responses.",
+        "quote": "\"it might be good to have those be looked at by people outside of the course... look at it more objectively\"; \"someone who doesn't have a personal investment... get more objective about it.\"",
+        "confidence": 0.94,
+        "theme": "Consistent",
+        "subtheme": "Independent oversight and accountability"
+    },
+    {
+        "code": "stable_accountability_routes",
+        "explanation": "Students describe being passed between offices and want a reliable route for issues to be owned and followed up.",
+        "quote": "\"each time they sent me to someone... ‘we can't help you’, or oh, go to this person\"; \"it just takes ages to just find out who you need to talk to.\"",
+        "confidence": 0.95,
+        "theme": "Consistent",
+        "subtheme": "Clear escalation and ownership routes"
+    },
+    {
+        "code": "survey_fatigue",
+        "explanation": "Students feel overwhelmed by frequent, repetitive surveys, which reduces willingness to engage and lowers response quality.",
+        "quote": "\"I always feel like I'm getting requests for feedback. In every single one of my courses\"; \"survey fatigue... I'm just tired of filling them out.\"",
+        "confidence": 0.99,
+        "theme": "User-friendly",
+        "subtheme": "Reducing participation burden"
+    },
+    {
+        "code": "shorter_forms_with_progress",
+        "explanation": "Long forms discourage students; they prefer shorter surveys with clear progress indicators and optional detail boxes.",
+        "quote": "\"if it's too long, then I do not want to\"; \"if I do not see... how much I’ve progressed through the survey... How long is it gonna take?\"",
+        "confidence": 0.98,
+        "theme": "User-friendly",
+        "subtheme": "Reducing participation burden"
+    },
+    {
+        "code": "feedback_after_assessment_feedback",
+        "explanation": "Some students argue final course surveys should occur after they receive marks and assignment feedback, so they can comment on the whole learning cycle.",
+        "quote": "\"for the final survey, it could be after we get the feedback on a final assignment... because it is like one of the most important aspects of the course.\"",
+        "confidence": 0.88,
+        "theme": "Timely",
+        "subtheme": "Post-assessment timing"
+    },
+    {
+        "code": "continuous_feedback_cycle",
+        "explanation": "Students prefer feedback mechanisms that recur throughout a course rather than one-off surveys, allowing problems to be identified and refined over time.",
+        "quote": "\"make it more frequent, to be able to give feedback... not just like once or twice a semester\"; \"weekly, or even once every two weeks feedback loop.\"",
+        "confidence": 0.97,
+        "theme": "Ongoing",
+        "subtheme": "Accessible continuous feedback channels"
+    },
+    {
+        "code": "opportunities_to_act_on_feedback",
+        "explanation": "Feedback is seen as more meaningful when students can see changes, test whether they help, and provide further feedback.",
+        "quote": "\"have an overview... two weeks later to show what changes have been made\"; \"go back to students and be like... is it working.\"",
+        "confidence": 0.94,
+        "theme": "Ongoing",
+        "subtheme": "Closing the feedback loop"
+    },
+    {
+        "code": "standing_feedback_channel",
+        "explanation": "Students suggest always-open feedback channels so they can report issues as they arise rather than waiting for formal survey windows.",
+        "quote": "\"it would be good if there was just one, constantly open, sort of general feedback form for each course\"; \"as soon as you feel like something's not right, you just put that down.\"",
+        "confidence": 0.93,
+        "theme": "Ongoing",
+        "subtheme": "Accessible continuous feedback channels"
+    },
+    {
+        "code": "feedback_without_iteration_feels_futile",
+        "explanation": "Repeated feedback on the same problems without visible improvement discourages future engagement.",
+        "quote": "\"feedback had been repeated in about six staff-student liaison committee meetings... exactly the same feedback... And the response was, Oh, yeah\"; \"I'm filling out the form with the same things every single time... it seems futile.\"",
+        "confidence": 0.98,
+        "theme": "Ongoing",
+        "subtheme": "Closing the feedback loop"
+    },
+    {
+        "code": "specific_action_plan",
+        "explanation": "Effective feedback requires concrete next steps rather than broad statements of concern or discussion.",
+        "quote": "\"If some things can be implemented now, why not?\"; \"outline their plan to address the concerns of their students.\"",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Concrete and transparent action"
+    },
+    {
+        "code": "vague_responses_not_actionable",
+        "explanation": "Students perceive phrases such as 'take into account' or 'we discussed this' as weak because they do not specify what will change.",
+        "quote": "\"the actions like pales in comparison to what was actually discussed\"; \"the phrase like ‘take this into account’ makes me feel very annoying. Because what does it mean?\"",
+        "confidence": 0.97,
+        "theme": "Actionable",
+        "subtheme": "Concrete and transparent action"
+    },
+    {
+        "code": "specific_change_examples",
+        "explanation": "Students recognise feedback as effective when it leads to observable concrete changes such as altered upload days, extra Q&A sessions, or changed teaching methods.",
+        "quote": "\"instead of uploading the videos on Thursdays, we'll put it on Tuesdays\"; \"we had an online lecture for three weeks, like, more of a q&a session, that was put up.\"",
+        "confidence": 0.95,
+        "theme": "Actionable",
+        "subtheme": "Concrete and transparent action"
+    },
+    {
+        "code": "feed_forward_on_assignments",
+        "explanation": "Students want assignment feedback that identifies what was done well, what was wrong, and how to improve future work, rather than minimal marks or comments.",
+        "quote": "\"the most feedback that I received... was like a sentence per question\"; \"she explained why things went right, why things went wrong on... our assignments.\"",
+        "confidence": 0.96,
+        "theme": "Actionable",
+        "subtheme": "Developmental feed-forward"
+    },
+    {
+        "code": "constructive_questions_prompt_better_feedback",
+        "explanation": "Students say forms should ask not only what is wrong but why and how it can be improved, supporting more useful responses.",
+        "quote": "\"I always asked, What don't you like, and how, how or why we can improve it\"; \"some students did give suggestions.\"",
+        "confidence": 0.9,
+        "theme": "Actionable",
+        "subtheme": "Structured prompts for solutions"
+    },
+    {
+        "code": "closing_the_loop_acknowledgement",
+        "explanation": "Students repeatedly define effective feedback as requiring acknowledgement that their comments were received, even where immediate change is not possible.",
+        "quote": "\"Sometimes all you want is at least like, like an acknowledgement\"; \"at least they should first acknowledge that they receive the feedback.\"",
+        "confidence": 0.98,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the feedback loop"
+    },
+    {
+        "code": "feedback_into_void",
+        "explanation": "A common experience is that feedback feels as though it disappears with no visible destination, response, or outcome.",
+        "quote": "\"It literally is just like sending the form back into the void and nothing ever happens\"; \"you write the form, fill in the form, and then send it and it's sent into the air.\"",
+        "confidence": 0.99,
+        "theme": "Tangible and transparent",
+        "subtheme": "Closing the feedback loop"
+    },
+    {
+        "code": "unclear_feedback_destination",
+        "explanation": "Students often do not know who reads their feedback or what happens to it after submission, undermining trust in the process.",
+        "quote": "\"I don't know who received the feedback, I don’t know if someone read the feedback. And I don't know what happened with the feedback\"; \"I don't really know how all this information is being processed, we just get sent the link.\"",
+        "confidence": 0.98,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visibility of feedback processes"
+    },
+    {
+        "code": "show_results_and_actions",
+        "explanation": "Students value receiving summaries of feedback results alongside explanations of what will change or why change is not possible.",
+        "quote": "\"They had a whole table and summarize the feedback for each different section\"; \"this is the question, this is answer; this is the issue, and this is our solution.\"",
+        "confidence": 0.96,
+        "theme": "Tangible and transparent",
+        "subtheme": "Action-oriented reporting"
+    },
+    {
+        "code": "transparency_about_limits",
+        "explanation": "When feedback cannot be implemented, students want clear reasons rather than vague refusals or references to precedent.",
+        "quote": "\"Sometimes the answer is no, but tell us why. Because ‘just because it's how we do it’ isn't an answer.\"",
+        "confidence": 0.95,
+        "theme": "Tangible and transparent",
+        "subtheme": "Transparent rationale and constraints"
+    },
+    {
+        "code": "transparent_negotiations",
+        "explanation": "Students want visibility over progress on systemic issues, such as transport, rather than being told only that discussions are happening.",
+        "quote": "\"we don't know how far the negotiations have gone with one of our concerns... we just want reassurance.\"",
+        "confidence": 0.91,
+        "theme": "Tangible and transparent",
+        "subtheme": "Visibility of feedback processes"
+    },
+    {
+        "code": "feedback_should_help_current_students",
+        "explanation": "Students distinguish feedback that benefits future cohorts from effective feedback that improves their own present learning experience.",
+        "quote": "\"whatever feedback you're giving will be applied to the next year's class... how is it gonna do any good to me?\"; \"it would be nice if things could help us now.\"",
+        "confidence": 0.99,
+        "theme": "Timely",
+        "subtheme": "Feedback that benefits current students"
+    },
+    {
+        "code": "midsemester_too_late",
+        "explanation": "Feedback collected midway or later in a short semester can arrive too late for meaningful changes while the course is still running.",
+        "quote": "\"by the time they go through the results and decide what to do with them maybe you're probably in week seven, it's almost the end of the semester\"; \"by the time the feedback... got back to us, we've got about three weeks left.\"",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Feedback that benefits current students"
+    },
+    {
+        "code": "early_feedback_prevents_damage",
+        "explanation": "Students want feedback opportunities early enough to prevent problems affecting exams, learning gaps, or course outcomes.",
+        "quote": "\"Is there a way to have feedback like, before it's a problem\"; \"if from day one, there's a problem... that should be addressed for the current cohort.\"",
+        "confidence": 0.96,
+        "theme": "Timely",
+        "subtheme": "Early intervention before problems escalate"
+    },
+    {
+        "code": "immediate_deadline_response",
+        "explanation": "Students cite rapid responses, such as deadline extensions after polling, as highly effective because feedback is acted on while still relevant.",
+        "quote": "\"three hours later, the professor was like... we decided to extend the deadline\"; \"after just under a couple of hours extended the deadline.\"",
+        "confidence": 0.97,
+        "theme": "Timely",
+        "subtheme": "Rapid in-course responsiveness"
+    }
+]

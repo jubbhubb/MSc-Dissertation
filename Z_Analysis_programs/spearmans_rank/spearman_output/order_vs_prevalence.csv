@@ -1,0 +1,8 @@
+code,n_themes_matched,spearman_rho,p_value,interpretation
+CC,7,0.036,0.9389,order does NOT clearly track prevalence
+CS,7,-0.108,0.8175,order does NOT clearly track prevalence
+DC,7,0.25,0.5887,order does NOT clearly track prevalence
+DD,7,0.25,0.5887,order does NOT clearly track prevalence
+DS,7,-0.071,0.879,order does NOT clearly track prevalence
+SD,7,0.714,0.0713,order does NOT clearly track prevalence
+SS,7,0.893,0.0068,order tracks prevalence

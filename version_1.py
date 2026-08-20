@@ -1,13 +1,13 @@
 from pathlib import Path
 
 from cosine_sim_all import cosine_similarity_between_documents
-from nli_explanation_validation2 import calculate_nli_success_rate, nli_explanation_validation
+from nli_explanation_validation import calculate_nli_success_rate, nli_explanation_validation
 from nli_random import nli_random_baseline
 from preprocessing import create_experiment_folder
 from api_calls import individual_input, process_folder
 from datetime import datetime
 from aggregation import recombine_split_documents, combine_to_corpus, combine_json_by_document, combine_json_files
-from quote_check2 import validate_quotes
+from quote_check import validate_quotes
 from quote_success_rates import calculate_quote_success_rates
 from random_explanation import random_explanation_baseline
 from random_nli_calc import random_nli_calc
@@ -17,7 +17,6 @@ from semantic_quote_explanation import calculate_explanation_semantic_score, sem
 from semantic_quote_validation2 import calculate_semantic_success_rate, semantic_quote_validation
 from semantic_random_stats import random_semantic_calc
 from similarity_distribution import similarity_histogram
-import thematic_projections
 from theme_generation import theme_generation_pipeline
 from unique_themes_finder import unique_themes
 from thematic_projections import thematic_projections_method
